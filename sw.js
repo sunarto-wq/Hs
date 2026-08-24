@@ -1,4 +1,4 @@
-const CACHE='catatan-keuangan-cache-v2';
+const CACHE='catatan-keuangan-cache-v3';
 const ASSETS=['./','./index.html','./manifest.json','./icon-192.png','./icon-512.png'];
 let pendingData = null; // Menyimpan data sementara jika tertahan limit
 
