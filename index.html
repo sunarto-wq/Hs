@@ -90,7 +90,11 @@ button{border:0;background:#111827;color:#fff;font-weight:700;cursor:pointer}.se
 <div style="grid-column:1/-1"><label>Keterangan</label><input id="keterangan" maxlength="100" placeholder="Contoh: Makan siang"></div>
 </div>
 <div class="actions">
-<button type="submit">+ Simpan Transaksi</button><button type="button" class="secondary" id="export">Export CSV</button><button type="button" class="danger" id="hapusSemua">Hapus Semua</button>
+<div class="actions">
+<button type="submit">+ Simpan Transaksi</button>
+<button type="button" class="secondary" id="export">Export CSV</button>
+<button type="button" id="exportExcel" style="background:#059669; color:#fff;">Export Excel</button>
+<button type="button" class="danger" id="hapusSemua">Hapus Semua</button>
 </div>
 <p class="note">Data tersimpan di perangkat ini. PWA dapat digunakan saat offline setelah pertama kali dimuat.</p>
 </form>
